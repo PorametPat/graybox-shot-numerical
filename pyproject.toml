@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "alive-progress>=3.3.0",
     "inspeqtor",
+    "scienceplots>=2.1.1",
+    "seaborn>=0.13.2",
 ]
 
 [tool.uv.sources]
